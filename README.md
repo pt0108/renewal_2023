@@ -28,6 +28,9 @@
 - [dribbble](https://dribbble.com/shots/popular/web-design), [behance](https://www.behance.net/)를 통해 레퍼런스를 참고하고자 함.
 - Figma 작업물과 프로젝트 작업물도 효과적으로 소개하고 싶음.
 
+### 사용할 툴
+- HTML5, CSS3, Javascript, Figma, ... React.js (고민 중)
+
 ## 📝 와이어 프레임 구현
 
 ## 🖌 피그마 디자인 작업
