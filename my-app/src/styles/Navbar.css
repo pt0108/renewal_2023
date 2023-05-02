@@ -11,6 +11,11 @@
     right: 0;
 }
 
+#nav-bar #logo-img {
+    height: 60px; 
+    margin-top: 10px;
+}
+
 #nav-bar a{
     margin-left: 50px;
     cursor: pointer;
@@ -24,4 +29,30 @@
 
 #nav-bar a:first-child {
     margin-left: 0;
+}
+
+/* 모바일 */
+@media (max-width: 780px) {
+    #nav-bar {
+        width: 100vw;
+    }
+
+    #nav-bar a{
+        margin-left: 2vw;
+        font-size: 16px;
+    }
+
+    #nav-bar #logo-img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #nav-bar #logo-img {
+        width: 80px;
+    }
+
+    #nav-bar-link a {
+        display: none;
+    }
 }

@@ -10,7 +10,7 @@ function Navbar() {
     <Container id="nav-bar">
       <Row id="nav-bar-link">
         <Col sm={1}>
-          <img src="img/logo.svg" alt="logo icon" style={{ height: "60px", marginTop: "10px" }} />
+          <img src="img/logo.svg" alt="logo icon" id="logo-img" />
         </Col>
         <Col sm={10} style={{ textAlign: "center"}}>
           <Link to="Main" smooth={true} offset={-70}>

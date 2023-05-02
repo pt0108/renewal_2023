@@ -1,0 +1,43 @@
+/* .offcanvas-body {
+    text-align: center;
+} */
+
+#offcanvas-body-link {
+    width: 180px;
+    height: 430px;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.offcanvas-body span {
+    display: block;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 52px;
+    color: #99DDCC;
+    text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
+    margin-bottom: 70px;
+}
+
+#side-btn img {
+    width: 40px;
+    margin-top: 5px;
+}
+
+/* 모바일 */
+@media (max-width: 450px) {
+    #side-tab {
+        width: 250px;
+    }
+
+    #offcanvas-body-link {
+        width: 180px;
+        height: 430px;
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+    }
+}

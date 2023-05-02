@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import '../styles/SideTab.css';
 
 function SideTab() {
   const [show, setShow] = useState(false);
@@ -11,16 +12,20 @@ function SideTab() {
   return (
     <>
       <Button variant="link" onClick={handleShow} id="side-btn">
-        <img src="img/side_btn.svg" alt="side tab button" style={{ width: "40px", marginTop: "10px" }} />
+        <img src="img/side_btn.svg" alt="side tab button" />
       </Button>
 
-      <Offcanvas show={show} onHide={handleClose} placement={'end'}>
+      <Offcanvas show={show} onHide={handleClose} placement={'end'} id="side-tab">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title style={{ opacity:"0" }}>Offcanvas</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          <div id="offcanvas-body-link">
+            <span>MAIN</span>
+            <span>ABOUT</span>
+            <span>WORKS</span>
+            <span>CONTACT</span>
+          </div>
         </Offcanvas.Body>
       </Offcanvas>
     </>
