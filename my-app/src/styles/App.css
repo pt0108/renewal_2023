@@ -5,3 +5,7 @@ html, body {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
 }
+
+ul, ol {
+    list-style: none;
+}

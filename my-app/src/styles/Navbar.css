@@ -1,0 +1,27 @@
+#nav-bar {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 29px;
+    position: fixed;
+    width: 1350px;
+    height: 60px;
+    left: 0;
+    right: 0;
+}
+
+#nav-bar a{
+    margin-left: 50px;
+    cursor: pointer;
+    line-height: 60px;
+    transition: all 0.3s;
+}
+
+#nav-bar a:hover {
+    text-shadow: 3px 3px 1px #99DDCC;
+}
+
+#nav-bar a:first-child {
+    margin-left: 0;
+}

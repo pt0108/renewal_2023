@@ -10,6 +10,7 @@ import Works from './pages/Works';
 function App() {
   return (
       <Layout>
+        <div style={{ width: "100%", height: "70px" }}></div>
         <Main />
         <About />
         <Works />

@@ -10,8 +10,8 @@ function SideTab() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        Launch
+      <Button variant="link" onClick={handleShow} id="side-btn">
+        <img src="img/side_btn.svg" alt="side tab button" style={{ width: "40px", marginTop: "10px" }} />
       </Button>
 
       <Offcanvas show={show} onHide={handleClose} placement={'end'}>
