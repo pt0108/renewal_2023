@@ -1,0 +1,8 @@
+#footer-modal-trigger {
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#footer-modal-trigger:hover {
+    color: white;
+}
