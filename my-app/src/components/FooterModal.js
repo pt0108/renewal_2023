@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import '../styles/FooterModal.css';
 
@@ -15,19 +14,23 @@ function FooterModal() {
         아이콘 출처
       </p>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal size="lg" id="footer-modal" show={show} onHide={handleClose} aria-labelledby="contained-modal-title-vcenter" centered>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>
+            <span className="modal-title-circle"></span>
+            <span className="modal-title-circle"></span>
+            <span className="modal-title-circle"></span>
+          </Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
+        <hr />
+        <Modal.Body>
+            <h5>아이콘 출처</h5>
+            <ul>
+                <a href="https://www.flaticon.com/free-animated-icons/communications" target="_blank" rel="noopener noreferrer"><li>Communications animated icons created by Freepik - Flaticon</li></a>
+                <a href="https://www.flaticon.com/free-animated-icons/computer" target="_blank" rel="noopener noreferrer"><li>Computer animated icons created by Freepik - Flaticon</li></a>
+                <a href="https://www.flaticon.com/free-animated-icons/phone" target="_blank" rel="noopener noreferrer"><li>Phone animated icons created by Freepik - Flaticon</li></a>
+            </ul>
+        </Modal.Body>
       </Modal>
     </>
   );
