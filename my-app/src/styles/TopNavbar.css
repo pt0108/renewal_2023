@@ -4,16 +4,8 @@
     font-weight: 900;
     font-size: 20px;
     line-height: 29px;
-    position: fixed;
     width: 1350px;
     height: 60px;
-    left: 0;
-    right: 0;
-}
-
-#nav-bar #logo-img {
-    height: 60px; 
-    margin-top: 10px;
 }
 
 #nav-bar a{
@@ -41,10 +33,6 @@
         margin-left: 2vw;
         font-size: 16px;
     }
-
-    #nav-bar #logo-img {
-        margin-top: 0;
-    }
 }
 
 @media (max-width: 500px) {
@@ -52,7 +40,7 @@
         width: 80px;
     }
 
-    #nav-bar-link a {
+    #nav-bar span {
         display: none;
     }
 }

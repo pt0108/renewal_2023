@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-scroll';
 import '../styles/SideTab.css';
 
 function SideTab() {
@@ -21,10 +22,18 @@ function SideTab() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div id="offcanvas-body-link">
-            <span>MAIN</span>
-            <span>ABOUT</span>
-            <span>WORKS</span>
-            <span>CONTACT</span>
+            <Link to="Main"  offset={-100}>
+              <span>MAIN</span>
+            </Link>
+            <Link to="About" offset={-100}>
+              <span>ABOUT</span>
+            </Link>
+            <Link to="Works" offset={-100}>
+              <span>WORKS</span>
+            </Link>
+            <Link to="Contact" offset={-100}>
+              <span>CONTACT</span>
+            </Link>
           </div>
         </Offcanvas.Body>
       </Offcanvas>
