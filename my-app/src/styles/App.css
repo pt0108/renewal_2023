@@ -9,3 +9,21 @@ html, body {
 ul, ol {
     list-style: none;
 }
+
+.page-title {
+    border: 1px solid red;
+    width: 240px;
+    height: 65px;
+    margin: 0 auto;
+    background: #99DDCC;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px black;
+    border-radius: 80px;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
+    letter-spacing: 0.1rem;
+}
