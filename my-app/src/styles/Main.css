@@ -1,0 +1,46 @@
+.main-bg {
+    width: 400px;
+    height: 400px;
+    background-color: #000D6B;
+    margin: 120px auto 0;
+    box-shadow: 15px 12px 1px #99DDCC;
+    position: relative;
+}
+
+.main-bg span {
+    display: inline-block;
+    mix-blend-mode: difference;
+    color: #F84720;
+    font-weight: 900;
+    font-size: 48px;
+    position: absolute;
+}
+
+.main-bg span:nth-child(1) {
+    width: 100%;
+    top: 40px;
+    left: -10vw;
+}
+
+.main-bg span:nth-child(2) {
+    width: 480px;
+    bottom: 20px;
+    right: -18vw;
+    text-align: right;
+}
+
+/* 모바일 */
+@media (max-width: 450px) {
+    .main-bg {
+        width: 230px;
+        height: 230px;
+    }
+
+    .main-bg span {
+        font-size: 25px;
+    }
+
+    .main-bg span:nth-child(2) {
+        right: -14vw;
+    }
+}
