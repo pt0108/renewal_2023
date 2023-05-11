@@ -1,0 +1,33 @@
+#Works {
+    position: relative;
+}
+
+.works-bg {
+    height: 330px;
+    width: 100%;
+    background: #99DDCC;
+    margin-top: 110px;
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 130px;
+}
+
+#works-contents {
+    width: 100%;
+    margin: 100px auto 0;
+    position: relative;
+    z-index: 1;
+    display : flex;
+    justify-content : space-between; 
+}
+
+.works-content {
+    max-width: 280px;
+    width: 18vw;
+    height: 470px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 6px 6px 1px #000000;
+    border-radius: 20px;
+}
