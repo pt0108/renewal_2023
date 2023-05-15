@@ -22,7 +22,7 @@ function SideTab() {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div id="offcanvas-body-link">
-            <Link to="Main"  offset={-100}>
+            <Link to="Main"  offset={-500}>
               <span>MAIN</span>
             </Link>
             <Link to="About" offset={-100}>

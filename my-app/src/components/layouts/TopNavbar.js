@@ -11,7 +11,7 @@ function TopNavbar() {
         <Container>
           <img alt="logo svg" src="img/logo.svg" height="100%" className="d-inline-block align-top" id="logo-img" />{' '}
           <Container style={{ width: "440px", margin:"auto" }}>
-            <Link to="Main" offset={-100}>
+            <Link to="Main" offset={-500}>
               <span>MAIN</span>
             </Link>
             <Link to="About" offset={-100}>
