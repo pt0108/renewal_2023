@@ -4,6 +4,11 @@
 html, body {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
 }
 
 ul, ol {
