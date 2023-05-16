@@ -19,7 +19,7 @@
 
 .main-bg:hover span {
     transform: scale(1.3);
-    transform: rotate3d(1, 2.0, 3.0, 10deg);
+    transform: rotate(-0.03turn);
 }
 
 .main-bg span:nth-child(1) {

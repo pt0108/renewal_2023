@@ -1,0 +1,19 @@
+.about-contents {
+    border: 1px solid red;
+    margin-top: 100px;
+    width: 1150px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.about-content-left {
+    border: 1px solid blue;
+    float: left;
+    width: 500px;
+}
+
+.about-content-right {
+    float: left;
+    border: 1px solid green;
+    width: 500px;
+}
