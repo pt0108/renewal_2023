@@ -1,5 +1,6 @@
 #Works {
     position: relative;
+    border: 1px solid red;
 }
 
 .works-bg {
@@ -74,18 +75,19 @@
 /* 모바일 */
 @media (max-width: 990px) {
     .works-bg {
-        height: 1400px;
+        height: 1500px;
         margin-top: 60px;
     }
 
     #works-contents {
         display: block;
         margin-top: 50px;
-        margin-bottom: 100px;
+        margin-bottom: 160px;
     }
 
     .works-content {
         height: 100%;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
     }
 }
