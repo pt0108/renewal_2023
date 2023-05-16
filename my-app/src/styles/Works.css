@@ -20,15 +20,21 @@
     z-index: 1;
     display : flex;
     justify-content : space-between; 
+    font-family: 'SUITE-Regular';
 }
 
 .works-content {
-    width: 280px;
+    width: 260px;
     height: 470px;
     background-color: white;
     border: 2px solid black;
     box-shadow: 6px 6px 1px #000000;
     border-radius: 20px;
+    transition: all 0.3s;
+}
+
+.works-content:hover {
+    transform: scale(1.1);
 }
 
 .works-content-img {
@@ -37,14 +43,14 @@
 }
 
 .works-content-heading {
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 800;
+    font-size: 24px;
     text-align: center;
 }
 
 .works-content-ul {
-    font-weight: 500;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 400;
     text-align: left;
     padding-left: 1vw;
     padding-top: 1vh;
@@ -66,7 +72,7 @@
 }
 
 /* 모바일 */
-@media (max-width: 450px) {
+@media (max-width: 990px) {
     .works-bg {
         height: 1400px;
         margin-top: 60px;
