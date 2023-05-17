@@ -71,7 +71,6 @@
     font-size: 21px;
 }
 
-/* 모바일 */
 @media (max-width: 990px) {
     .works-bg {
         height: 1500px;

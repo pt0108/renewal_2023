@@ -1,19 +1,37 @@
 .about-contents {
     border: 1px solid red;
     margin-top: 100px;
-    width: 1150px;
+    width: 100%;
     height: 100%;
     overflow: hidden;
+    font-family: 'SUITE-Regular';
 }
 
 .about-content-left {
     border: 1px solid blue;
     float: left;
-    width: 500px;
+    width: 50%;
+    line-height: 4vh;
+}
+
+.about-content-left p {
+    margin: 0;
 }
 
 .about-content-right {
-    float: left;
+    float: right;
     border: 1px solid green;
-    width: 500px;
+    width: 50%;
+}
+
+@media (max-width: 990px) {
+    .about-content-left {
+        float: none;
+        width: 100%;
+    }
+
+    .about-content-right {
+        float: none;
+        width: 100%;
+    }
 }
