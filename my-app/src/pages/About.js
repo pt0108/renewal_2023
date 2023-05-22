@@ -16,7 +16,30 @@ function About() {
                     </p>
                 </Container>
                 <Container className="about-content-right">
-                    그래프 자리
+                    <div className="about-content-graph">
+                        <p>HTML5/CSS3</p>
+                        <span></span>
+                    </div>
+                    <div className="about-content-graph">
+                        <p>Javascript</p>
+                        <span></span>
+                    </div>
+                    <div className="about-content-graph">
+                        <p>React.js</p>
+                        <span></span>
+                    </div>
+                    <div className="about-content-graph">
+                        <p>Python</p>
+                        <span></span>
+                    </div>
+                    <div className="about-content-graph">
+                        <p>Git</p>
+                        <span></span>
+                    </div>
+                    <div className="about-content-graph">
+                        <p>Figma</p>
+                        <span></span>
+                    </div>
                 </Container>
             </Container>
         </Container>
