@@ -5,6 +5,11 @@
     overflow: hidden;
     font-family: 'SUITE-Regular';
     padding: 0;
+    transition: all 0.3s;
+}
+
+.about-contents:hover {
+    transform: scale(1.1); 
 }
 
 .about-content-left {
@@ -73,6 +78,10 @@
 @media (max-width: 990px) {
     .about-contents p{
         font-size: 16px;
+    }
+
+    .about-contents:hover {
+        transform: none;
     }
 
     .about-content-left {

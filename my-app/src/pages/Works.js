@@ -37,7 +37,7 @@ function Works() {
                     <h5 className="works-content-heading">2023 포트폴리오</h5>
                     <ul className="works-content-ul">
                         <li>- HTML5, CSS3, Javascript, React.js</li>
-                        <li>- Link</li>
+                        {/* <li>- Link</li> */}
                         <a href="https://github.com/pt0108/renewal_2023" target="_blank" rel="noopener noreferrer"><li>- Github Link</li></a>
                     </ul>
                 </Container>
